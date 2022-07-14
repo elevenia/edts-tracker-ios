@@ -1,0 +1,11 @@
+framework module EDTSTracker {
+  umbrella header "EDTSTracker.h"
+
+  export *
+  module * { export * }
+}
+
+module EDTSTracker.Swift {
+    header "EDTSTracker-Swift.h"
+    requires objc
+}
