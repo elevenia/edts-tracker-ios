@@ -29,9 +29,9 @@ public enum EDTSTrackerHeaderType {
   public func sendEventFilterSort(name: Swift.String, sort: Swift.String)
   public func sendEventFilterValue(name: Swift.String, list: [Swift.String])
   public func sendEventSubmission(name: Swift.String, status: Swift.String?, failed: Swift.String?)
-  public func sendEventPageDetail(name: Swift.String, details: [Swift.String : Any]?)
+  public func sendEventPageDetail(name: Swift.String, details: Swift.String?)
   public func sendEventError(exception: Swift.String, stackTrace: Swift.String)
-  public func sendEventBackendData(name: Swift.String, eventDetails: Swift.String, details: [Swift.String : Any]?)
+  public func sendEventBackendData(name: Swift.String, eventDetails: Swift.String, details: Swift.String?)
   public func sendEventCustom(name: Swift.String, eventDetails: Swift.String)
   @objc deinit
 }
