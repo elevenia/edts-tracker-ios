@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/EDTSTracker-Swift.h</key>
 		<data>
-		Qdab9vBEsjuUBg5bQnLQVe9mcoQ=
+		cXHCiqZGnEwzv3cf7qinEXgk0BY=
 		</data>
 		<key>Headers/EDTSTracker.h</key>
 		<data>
@@ -14,55 +14,31 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		EqqJc+vmzHp/+7/WtDIQXlgtFAc=
+		KCPoR8iuEiEWmwG+DmS7M3aLZSg=
 		</data>
-		<key>Modules/EDTSTracker.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
+		<key>Modules/EDTSTracker.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		rfilrZsbo6EZBJpzfMUqhQ7G8Bs=
+		H2FYKrKqUDDUJZvkE79gIwFNCt8=
 		</data>
-		<key>Modules/EDTSTracker.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
+		<key>Modules/EDTSTracker.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		abdF4xMu1E9nxRXEe4W55Sp6ufc=
+		vZUJk55xOYdy+vbskIV5WsY7F+A=
 		</data>
-		<key>Modules/EDTSTracker.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
+		<key>Modules/EDTSTracker.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		gDiL/O3g5aG4AzCNeLa/Rm9gs0I=
+		mwlf7mhtBIHR24ZyQKidK356Uz8=
 		</data>
 		<key>Modules/EDTSTracker.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		rfilrZsbo6EZBJpzfMUqhQ7G8Bs=
+		H2FYKrKqUDDUJZvkE79gIwFNCt8=
 		</data>
 		<key>Modules/EDTSTracker.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		abdF4xMu1E9nxRXEe4W55Sp6ufc=
+		vZUJk55xOYdy+vbskIV5WsY7F+A=
 		</data>
 		<key>Modules/EDTSTracker.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		gDiL/O3g5aG4AzCNeLa/Rm9gs0I=
-		</data>
-		<key>Modules/EDTSTracker.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
-		<data>
-		dbCxdDJ1Uf1K1XYGSbjtulyx4iw=
-		</data>
-		<key>Modules/EDTSTracker.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
-		<data>
-		GqZ+CdcD6QNZ8mNE1gx9Li3NFok=
-		</data>
-		<key>Modules/EDTSTracker.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
-		<data>
-		bpSiqfS90lkWHkJI92qg5bLAH4w=
-		</data>
-		<key>Modules/EDTSTracker.swiftmodule/x86_64.swiftdoc</key>
-		<data>
-		dbCxdDJ1Uf1K1XYGSbjtulyx4iw=
-		</data>
-		<key>Modules/EDTSTracker.swiftmodule/x86_64.swiftinterface</key>
-		<data>
-		GqZ+CdcD6QNZ8mNE1gx9Li3NFok=
-		</data>
-		<key>Modules/EDTSTracker.swiftmodule/x86_64.swiftmodule</key>
-		<data>
-		bpSiqfS90lkWHkJI92qg5bLAH4w=
+		mwlf7mhtBIHR24ZyQKidK356Uz8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -75,7 +51,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			KPnZCJLbxQQef1PbIUAHknXxwjs1w9++LBQbPCT/8Uo=
+			pA3cGDscDntyHdRaA1U3cLPyA5oCDRDY9JfPW2fUmOw=
 			</data>
 		</dict>
 		<key>Headers/EDTSTracker.h</key>
@@ -85,88 +61,46 @@
 			hzvq5VVHhb9lsU6KE8X6USFH1z+Z6gvsO3sOjOcrj2M=
 			</data>
 		</dict>
-		<key>Modules/EDTSTracker.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
+		<key>Modules/EDTSTracker.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			sch8s83yfXcGrR9rhulElIzo7DKEY3SSkcAvQuE3GlQ=
+			gTBJa3rRMIJg42U/nTBOh8SbKfmdDAm8DqJ+AmNz9XA=
 			</data>
 		</dict>
-		<key>Modules/EDTSTracker.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
+		<key>Modules/EDTSTracker.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			tHIWRH/Zf+ncEk2KsPYnp1lmeopHqG4fuR0Hky/rEBE=
+			eZq4k8IfH6gGWr1VbvvcaAarZTe8G30lofPzD6FEBls=
 			</data>
 		</dict>
-		<key>Modules/EDTSTracker.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
+		<key>Modules/EDTSTracker.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1Bww44/8SR+STqR2La7Wa82k2xZ5FdryTVWDZEIJ468=
+			At+2cn6vsmnZKDqHyE1DQ3qdnU8HFdcnuJZ+IVWYAc4=
 			</data>
 		</dict>
 		<key>Modules/EDTSTracker.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			sch8s83yfXcGrR9rhulElIzo7DKEY3SSkcAvQuE3GlQ=
+			gTBJa3rRMIJg42U/nTBOh8SbKfmdDAm8DqJ+AmNz9XA=
 			</data>
 		</dict>
 		<key>Modules/EDTSTracker.swiftmodule/arm64.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			tHIWRH/Zf+ncEk2KsPYnp1lmeopHqG4fuR0Hky/rEBE=
+			eZq4k8IfH6gGWr1VbvvcaAarZTe8G30lofPzD6FEBls=
 			</data>
 		</dict>
 		<key>Modules/EDTSTracker.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1Bww44/8SR+STqR2La7Wa82k2xZ5FdryTVWDZEIJ468=
-			</data>
-		</dict>
-		<key>Modules/EDTSTracker.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			AMdRf4/ahVU3YXZSUF1qAVYl4pEnyGh6Y5uhrcv9ti8=
-			</data>
-		</dict>
-		<key>Modules/EDTSTracker.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			kWyeOwavNozYoyrzyHPbgeOAr+aZDK7I+6MnfZ9xJOE=
-			</data>
-		</dict>
-		<key>Modules/EDTSTracker.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			quifWTKcOW2jnSHv6dTdF29YkZ1zsQ1pxUKjp8HnX+E=
-			</data>
-		</dict>
-		<key>Modules/EDTSTracker.swiftmodule/x86_64.swiftdoc</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			AMdRf4/ahVU3YXZSUF1qAVYl4pEnyGh6Y5uhrcv9ti8=
-			</data>
-		</dict>
-		<key>Modules/EDTSTracker.swiftmodule/x86_64.swiftinterface</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			kWyeOwavNozYoyrzyHPbgeOAr+aZDK7I+6MnfZ9xJOE=
-			</data>
-		</dict>
-		<key>Modules/EDTSTracker.swiftmodule/x86_64.swiftmodule</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			quifWTKcOW2jnSHv6dTdF29YkZ1zsQ1pxUKjp8HnX+E=
+			At+2cn6vsmnZKDqHyE1DQ3qdnU8HFdcnuJZ+IVWYAc4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

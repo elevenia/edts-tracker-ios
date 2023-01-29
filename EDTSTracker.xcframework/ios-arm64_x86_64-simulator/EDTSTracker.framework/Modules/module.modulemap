@@ -6,6 +6,6 @@ framework module EDTSTracker {
 }
 
 module EDTSTracker.Swift {
-  header "EDTSTracker-Swift.h"
-  requires objc
+    header "EDTSTracker-Swift.h"
+    requires objc
 }
