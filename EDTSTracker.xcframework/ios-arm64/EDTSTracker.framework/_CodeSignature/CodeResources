@@ -22,11 +22,11 @@
 		</data>
 		<key>Modules/EDTSTracker.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		vZUJk55xOYdy+vbskIV5WsY7F+A=
+		gECv6GuqhfWcfQPlqyLHA0HGMaU=
 		</data>
 		<key>Modules/EDTSTracker.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		mwlf7mhtBIHR24ZyQKidK356Uz8=
+		HJGEip0wX+jMiqC5eapN8KpC19U=
 		</data>
 		<key>Modules/EDTSTracker.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/EDTSTracker.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		vZUJk55xOYdy+vbskIV5WsY7F+A=
+		gECv6GuqhfWcfQPlqyLHA0HGMaU=
 		</data>
 		<key>Modules/EDTSTracker.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		mwlf7mhtBIHR24ZyQKidK356Uz8=
+		HJGEip0wX+jMiqC5eapN8KpC19U=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -72,14 +72,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			eZq4k8IfH6gGWr1VbvvcaAarZTe8G30lofPzD6FEBls=
+			hwZB8ognmU48JJU8RAxH7GO6FGT6btHTFTJ/ci7zhvw=
 			</data>
 		</dict>
 		<key>Modules/EDTSTracker.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			At+2cn6vsmnZKDqHyE1DQ3qdnU8HFdcnuJZ+IVWYAc4=
+			QhFKJWwRZRw6+rudtzWBL6TPZN65DEsGUfteP5hllq0=
 			</data>
 		</dict>
 		<key>Modules/EDTSTracker.swiftmodule/arm64.swiftdoc</key>
@@ -93,14 +93,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			eZq4k8IfH6gGWr1VbvvcaAarZTe8G30lofPzD6FEBls=
+			hwZB8ognmU48JJU8RAxH7GO6FGT6btHTFTJ/ci7zhvw=
 			</data>
 		</dict>
 		<key>Modules/EDTSTracker.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			At+2cn6vsmnZKDqHyE1DQ3qdnU8HFdcnuJZ+IVWYAc4=
+			QhFKJWwRZRw6+rudtzWBL6TPZN65DEsGUfteP5hllq0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
