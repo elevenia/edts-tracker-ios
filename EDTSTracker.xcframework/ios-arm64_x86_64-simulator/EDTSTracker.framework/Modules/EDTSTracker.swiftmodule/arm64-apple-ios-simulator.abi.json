@@ -1,0 +1,1978 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "EDTSTracker",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "EDTSTrackerHeaderType",
+        "printedName": "EDTSTrackerHeaderType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "authorization",
+            "printedName": "authorization",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(EDTSTracker.EDTSTrackerHeaderType.Type) -> EDTSTracker.EDTSTrackerHeaderType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EDTSTrackerHeaderType",
+                    "printedName": "EDTSTracker.EDTSTrackerHeaderType",
+                    "usr": "s:11EDTSTracker0A10HeaderTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "EDTSTracker.EDTSTrackerHeaderType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EDTSTrackerHeaderType",
+                        "printedName": "EDTSTracker.EDTSTrackerHeaderType",
+                        "usr": "s:11EDTSTracker0A10HeaderTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11EDTSTracker0A10HeaderTypeO13authorizationyA2CmF",
+            "mangledName": "$s11EDTSTracker0A10HeaderTypeO13authorizationyA2CmF",
+            "moduleName": "EDTSTracker"
+          },
+          {
+            "kind": "Var",
+            "name": "xAPIKey",
+            "printedName": "xAPIKey",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(EDTSTracker.EDTSTrackerHeaderType.Type) -> EDTSTracker.EDTSTrackerHeaderType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EDTSTrackerHeaderType",
+                    "printedName": "EDTSTracker.EDTSTrackerHeaderType",
+                    "usr": "s:11EDTSTracker0A10HeaderTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "EDTSTracker.EDTSTrackerHeaderType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EDTSTrackerHeaderType",
+                        "printedName": "EDTSTracker.EDTSTrackerHeaderType",
+                        "usr": "s:11EDTSTracker0A10HeaderTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11EDTSTracker0A10HeaderTypeO7xAPIKeyyA2CmF",
+            "mangledName": "$s11EDTSTracker0A10HeaderTypeO7xAPIKeyyA2CmF",
+            "moduleName": "EDTSTracker"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "EDTSTrackerHeaderType",
+                "printedName": "EDTSTracker.EDTSTrackerHeaderType",
+                "usr": "s:11EDTSTracker0A10HeaderTypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "EDTSTrackerHeaderType",
+                "printedName": "EDTSTracker.EDTSTrackerHeaderType",
+                "usr": "s:11EDTSTracker0A10HeaderTypeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11EDTSTracker0A10HeaderTypeO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s11EDTSTracker0A10HeaderTypeO2eeoiySbAC_ACtFZ",
+            "moduleName": "EDTSTracker",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11EDTSTracker0A10HeaderTypeO9hashValueSivp",
+            "mangledName": "$s11EDTSTracker0A10HeaderTypeO9hashValueSivp",
+            "moduleName": "EDTSTracker",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11EDTSTracker0A10HeaderTypeO9hashValueSivg",
+                "mangledName": "$s11EDTSTracker0A10HeaderTypeO9hashValueSivg",
+                "moduleName": "EDTSTracker",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11EDTSTracker0A10HeaderTypeO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s11EDTSTracker0A10HeaderTypeO4hash4intoys6HasherVz_tF",
+            "moduleName": "EDTSTracker",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:11EDTSTracker0A10HeaderTypeO",
+        "mangledName": "$s11EDTSTracker0A10HeaderTypeO",
+        "moduleName": "EDTSTracker",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "EDTSTracker",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SystemConfiguration",
+        "printedName": "SystemConfiguration",
+        "declKind": "Import",
+        "moduleName": "EDTSTracker"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "EDTSTracker",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "EDTSTracker",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "EDTSTracker",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "EDTSTracking",
+        "printedName": "EDTSTracking",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "sharedInstance",
+            "printedName": "sharedInstance",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "EDTSTracking",
+                "printedName": "EDTSTracker.EDTSTracking",
+                "usr": "c:@M@EDTSTracker@objc(cs)EDTSTracking"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11EDTSTracker12EDTSTrackingC14sharedInstanceACvpZ",
+            "mangledName": "$s11EDTSTracker12EDTSTrackingC14sharedInstanceACvpZ",
+            "moduleName": "EDTSTracker",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EDTSTracking",
+                    "printedName": "EDTSTracker.EDTSTracking",
+                    "usr": "c:@M@EDTSTracker@objc(cs)EDTSTracking"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11EDTSTracker12EDTSTrackingC14sharedInstanceACvgZ",
+                "mangledName": "$s11EDTSTracker12EDTSTrackingC14sharedInstanceACvgZ",
+                "moduleName": "EDTSTracker",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "EDTSTracking",
+                "printedName": "EDTSTracker.EDTSTracking",
+                "usr": "c:@M@EDTSTracker@objc(cs)EDTSTracking"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@EDTSTracker@objc(cs)EDTSTracking(im)init",
+            "mangledName": "$s11EDTSTracker12EDTSTrackingCACycfc",
+            "moduleName": "EDTSTracker",
+            "overriding": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "configure",
+            "printedName": "configure(host:token:headerType:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "EDTSTrackerHeaderType",
+                "printedName": "EDTSTracker.EDTSTrackerHeaderType",
+                "usr": "s:11EDTSTracker0A10HeaderTypeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11EDTSTracker12EDTSTrackingC9configure4host5token10headerTypey10Foundation3URLV_SSAA0a6HeaderG0OtF",
+            "mangledName": "$s11EDTSTracker12EDTSTrackingC9configure4host5token10headerTypey10Foundation3URLV_SSAA0a6HeaderG0OtF",
+            "moduleName": "EDTSTracker",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "synchronizeTrackingData",
+            "printedName": "synchronizeTrackingData()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11EDTSTracker12EDTSTrackingC23synchronizeTrackingDatayyF",
+            "mangledName": "$s11EDTSTracker12EDTSTrackingC23synchronizeTrackingDatayyF",
+            "moduleName": "EDTSTracker",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setUserId",
+            "printedName": "setUserId(userId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11EDTSTracker12EDTSTrackingC9setUserId04userE0ySS_tF",
+            "mangledName": "$s11EDTSTracker12EDTSTrackingC9setUserId04userE0ySS_tF",
+            "moduleName": "EDTSTracker",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setUTMInfo",
+            "printedName": "setUTMInfo(utm:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11EDTSTracker12EDTSTrackingC10setUTMInfo3utmySSSg_tF",
+            "mangledName": "$s11EDTSTracker12EDTSTrackingC10setUTMInfo3utmySSSg_tF",
+            "moduleName": "EDTSTracker",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setLocationInfo",
+            "printedName": "setLocationInfo(longitude:latitude:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11EDTSTracker12EDTSTrackingC15setLocationInfo9longitude8latitudeySS_SStF",
+            "mangledName": "$s11EDTSTracker12EDTSTrackingC15setLocationInfo9longitude8latitudeySS_SStF",
+            "moduleName": "EDTSTracker",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sendEventPageView",
+            "printedName": "sendEventPageView(pageViewId:pageName:pagePath:prevPage:prevPath:eventCount:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11EDTSTracker12EDTSTrackingC17sendEventPageView04pageF2Id0G4Name0G4Path04prevE00kJ010eventCountySS_S2SSgA3KtF",
+            "mangledName": "$s11EDTSTracker12EDTSTrackingC17sendEventPageView04pageF2Id0G4Name0G4Path04prevE00kJ010eventCountySS_S2SSgA3KtF",
+            "moduleName": "EDTSTracker",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sendEventClickLink",
+            "printedName": "sendEventClickLink(pageViewId:pageName:linkLabel:linkURL:details:eventCategory:eventCount:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11EDTSTracker12EDTSTrackingC18sendEventClickLink10pageViewId0G4Name9linkLabel0K3URL7details13eventCategory0O5CountySS_S3SSgypSgA2LtF",
+            "mangledName": "$s11EDTSTracker12EDTSTrackingC18sendEventClickLink10pageViewId0G4Name9linkLabel0K3URL7details13eventCategory0O5CountySS_S3SSgypSgA2LtF",
+            "moduleName": "EDTSTracker",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sendEventSubmission",
+            "printedName": "sendEventSubmission(pageViewId:pageName:details:event_label:status:failed:eventCategory:eventCount:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11EDTSTracker12EDTSTrackingC19sendEventSubmission10pageViewId0F4Name7details11event_label6status6failed0K8Category0K5CountySS_SSypSgS2SSgA2NSStF",
+            "mangledName": "$s11EDTSTracker12EDTSTrackingC19sendEventSubmission10pageViewId0F4Name7details11event_label6status6failed0K8Category0K5CountySS_SSypSgS2SSgA2NSStF",
+            "moduleName": "EDTSTracker",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sendEventSearch",
+            "printedName": "sendEventSearch(pageViewId:pageName:searchInput:details:eventCount:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11EDTSTracker12EDTSTrackingC15sendEventSearch10pageViewId0F4Name11searchInput7details10eventCountySS_S2SSgypSgAJtF",
+            "mangledName": "$s11EDTSTracker12EDTSTrackingC15sendEventSearch10pageViewId0F4Name11searchInput7details10eventCountySS_S2SSgypSgAJtF",
+            "moduleName": "EDTSTracker",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sendEventFilter",
+            "printedName": "sendEventFilter(pageViewId:pageName:list:eventCategory:eventCount:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11EDTSTracker12EDTSTrackingC15sendEventFilter10pageViewId0F4Name4list13eventCategory0K5CountySS_SSypSgSSSgAKtF",
+            "mangledName": "$s11EDTSTracker12EDTSTrackingC15sendEventFilter10pageViewId0F4Name4list13eventCategory0K5CountySS_SSypSgSSSgAKtF",
+            "moduleName": "EDTSTracker",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sendEventSort",
+            "printedName": "sendEventSort(pageViewId:pageName:sort:eventCount:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11EDTSTracker12EDTSTrackingC13sendEventSort10pageViewId0F4Name4sort10eventCountySS_S3SSgtF",
+            "mangledName": "$s11EDTSTracker12EDTSTrackingC13sendEventSort10pageViewId0F4Name4sort10eventCountySS_S3SSgtF",
+            "moduleName": "EDTSTracker",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sendEventImpression",
+            "printedName": "sendEventImpression(pageViewId:pageName:impressions:eventCategory:eventCount:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11EDTSTracker12EDTSTrackingC19sendEventImpression10pageViewId0F4Name11impressions13eventCategory0K5CountySS_SSypSgSSSgAKtF",
+            "mangledName": "$s11EDTSTracker12EDTSTrackingC19sendEventImpression10pageViewId0F4Name11impressions13eventCategory0K5CountySS_SSypSgSSSgAKtF",
+            "moduleName": "EDTSTracker",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sendEventDisplayedItem",
+            "printedName": "sendEventDisplayedItem(pageViewId:pageName:list:eventCount:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11EDTSTracker12EDTSTrackingC22sendEventDisplayedItem10pageViewId0G4Name4list10eventCountySS_SSypSgSSSgtF",
+            "mangledName": "$s11EDTSTracker12EDTSTrackingC22sendEventDisplayedItem10pageViewId0G4Name4list10eventCountySS_SSypSgSSSgtF",
+            "moduleName": "EDTSTracker",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sendEventPageDetail",
+            "printedName": "sendEventPageDetail(pageViewId:pageName:details:eventCount:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11EDTSTracker12EDTSTrackingC19sendEventPageDetail10pageViewId0G4Name7details10eventCountySS_SSypSgSSSgtF",
+            "mangledName": "$s11EDTSTracker12EDTSTrackingC19sendEventPageDetail10pageViewId0G4Name7details10eventCountySS_SSypSgSSSgtF",
+            "moduleName": "EDTSTracker",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sendEventAppActivity",
+            "printedName": "sendEventAppActivity(pageViewId:details:eventCount:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11EDTSTracker12EDTSTrackingC20sendEventAppActivity10pageViewId7details10eventCountySS_ypSgSSSgtF",
+            "mangledName": "$s11EDTSTracker12EDTSTrackingC20sendEventAppActivity10pageViewId7details10eventCountySS_ypSgSSSgtF",
+            "moduleName": "EDTSTracker",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sendEventBackendData",
+            "printedName": "sendEventBackendData(pageViewId:pageName:eventDetails:details:eventCount:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11EDTSTracker12EDTSTrackingC20sendEventBackendData10pageViewId0G4Name12eventDetails7details0K5CountySS_S2SypSgSSSgtF",
+            "mangledName": "$s11EDTSTracker12EDTSTrackingC20sendEventBackendData10pageViewId0G4Name12eventDetails7details0K5CountySS_S2SypSgSSSgtF",
+            "moduleName": "EDTSTracker",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sendEventCustom",
+            "printedName": "sendEventCustom(name:eventDetails:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11EDTSTracker12EDTSTrackingC15sendEventCustom4name12eventDetailsySS_SStF",
+            "mangledName": "$s11EDTSTracker12EDTSTrackingC15sendEventCustom4name12eventDetailsySS_SStF",
+            "moduleName": "EDTSTracker",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sendEventError",
+            "printedName": "sendEventError(exception:stackTrace:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11EDTSTracker12EDTSTrackingC14sendEventError9exception10stackTraceySS_SStF",
+            "mangledName": "$s11EDTSTracker12EDTSTrackingC14sendEventError9exception10stackTraceySS_SStF",
+            "moduleName": "EDTSTracker",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@EDTSTracker@objc(cs)EDTSTracking",
+        "mangledName": "$s11EDTSTracker12EDTSTrackingC",
+        "moduleName": "EDTSTracker",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/viktoragungsukarno\/Documents\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerService.swift",
+      "kind": "StringLiteral",
+      "offset": 693,
+      "length": 7,
+      "value": "\"%@-%@\""
+    },
+    {
+      "filePath": "\/Users\/viktoragungsukarno\/Documents\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerService.swift",
+      "kind": "StringLiteral",
+      "offset": 1578,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/viktoragungsukarno\/Documents\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerService.swift",
+      "kind": "StringLiteral",
+      "offset": 1676,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/viktoragungsukarno\/Documents\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerService.swift",
+      "kind": "StringLiteral",
+      "offset": 2767,
+      "length": 9,
+      "value": "\"details\""
+    },
+    {
+      "filePath": "\/Users\/viktoragungsukarno\/Documents\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerService.swift",
+      "kind": "StringLiteral",
+      "offset": 3739,
+      "length": 9,
+      "value": "\"details\""
+    },
+    {
+      "filePath": "\/Users\/viktoragungsukarno\/Documents\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerService.swift",
+      "kind": "StringLiteral",
+      "offset": 4519,
+      "length": 9,
+      "value": "\"details\""
+    },
+    {
+      "filePath": "\/Users\/viktoragungsukarno\/Documents\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerService.swift",
+      "kind": "StringLiteral",
+      "offset": 5299,
+      "length": 13,
+      "value": "\"filter_list\""
+    },
+    {
+      "filePath": "\/Users\/viktoragungsukarno\/Documents\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerService.swift",
+      "kind": "StringLiteral",
+      "offset": 6759,
+      "length": 17,
+      "value": "\"impression_list\""
+    },
+    {
+      "filePath": "\/Users\/viktoragungsukarno\/Documents\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerService.swift",
+      "kind": "StringLiteral",
+      "offset": 7489,
+      "length": 11,
+      "value": "\"item_list\""
+    },
+    {
+      "filePath": "\/Users\/viktoragungsukarno\/Documents\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerService.swift",
+      "kind": "StringLiteral",
+      "offset": 8206,
+      "length": 9,
+      "value": "\"details\""
+    },
+    {
+      "filePath": "\/Users\/viktoragungsukarno\/Documents\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerService.swift",
+      "kind": "StringLiteral",
+      "offset": 8870,
+      "length": 18,
+      "value": "\"activity_details\""
+    },
+    {
+      "filePath": "\/Users\/viktoragungsukarno\/Documents\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerService.swift",
+      "kind": "StringLiteral",
+      "offset": 9663,
+      "length": 9,
+      "value": "\"details\""
+    },
+    {
+      "filePath": "\/Users\/viktoragungsukarno\/Documents\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerService.swift",
+      "kind": "StringLiteral",
+      "offset": 11482,
+      "length": 6,
+      "value": "\"core\""
+    },
+    {
+      "filePath": "\/Users\/viktoragungsukarno\/Documents\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerService.swift",
+      "kind": "StringLiteral",
+      "offset": 11509,
+      "length": 6,
+      "value": "\"user\""
+    },
+    {
+      "filePath": "\/Users\/viktoragungsukarno\/Documents\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerService.swift",
+      "kind": "StringLiteral",
+      "offset": 11556,
+      "length": 13,
+      "value": "\"application\""
+    },
+    {
+      "filePath": "\/Users\/viktoragungsukarno\/Documents\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerService.swift",
+      "kind": "StringLiteral",
+      "offset": 11617,
+      "length": 9,
+      "value": "\"network\""
+    },
+    {
+      "filePath": "\/Users\/viktoragungsukarno\/Documents\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerService.swift",
+      "kind": "StringLiteral",
+      "offset": 11724,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/viktoragungsukarno\/Documents\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerService.swift",
+      "kind": "StringLiteral",
+      "offset": 11753,
+      "length": 9,
+      "value": "\"utm_raw\""
+    },
+    {
+      "filePath": "\/Users\/viktoragungsukarno\/Documents\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerService.swift",
+      "kind": "StringLiteral",
+      "offset": 11799,
+      "length": 11,
+      "value": "\"marketing\""
+    },
+    {
+      "filePath": "\/Users\/viktoragungsukarno\/Documents\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerService.swift",
+      "kind": "StringLiteral",
+      "offset": 11994,
+      "length": 28,
+      "value": "\"CFBundleShortVersionString\""
+    },
+    {
+      "filePath": "\/Users\/viktoragungsukarno\/Documents\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12234,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/viktoragungsukarno\/Documents\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerService.swift",
+      "kind": "StringLiteral",
+      "offset": 12707,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/viktoragungsukarno\/Documents\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerService.swift",
+      "kind": "StringLiteral",
+      "offset": 13509,
+      "length": 6,
+      "value": "\"iPad\""
+    },
+    {
+      "filePath": "\/Users\/viktoragungsukarno\/Documents\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerService.swift",
+      "kind": "StringLiteral",
+      "offset": 13570,
+      "length": 8,
+      "value": "\"iPhone\""
+    },
+    {
+      "filePath": "\/Users\/viktoragungsukarno\/Documents\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerService.swift",
+      "kind": "StringLiteral",
+      "offset": 13718,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/viktoragungsukarno\/Documents\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerService.swift",
+      "kind": "StringLiteral",
+      "offset": 14040,
+      "length": 6,
+      "value": "\"apps\""
+    },
+    {
+      "filePath": "\/Users\/viktoragungsukarno\/Documents\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerService.swift",
+      "kind": "StringLiteral",
+      "offset": 14486,
+      "length": 28,
+      "value": "\"EDTSTrackerPendingTracking\""
+    },
+    {
+      "filePath": "\/Users\/viktoragungsukarno\/Documents\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerService.swift",
+      "kind": "StringLiteral",
+      "offset": 14690,
+      "length": 43,
+      "value": "\"EDTSTracker :::: Success Synchronize Data\""
+    },
+    {
+      "filePath": "\/Users\/viktoragungsukarno\/Documents\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerService.swift",
+      "kind": "StringLiteral",
+      "offset": 14794,
+      "length": 28,
+      "value": "\"EDTSTrackerPendingTracking\""
+    },
+    {
+      "filePath": "\/Users\/viktoragungsukarno\/Documents\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerService.swift",
+      "kind": "StringLiteral",
+      "offset": 14867,
+      "length": 49,
+      "value": "\"EDTSTracker :::: No Pending Tracking Data Found\""
+    },
+    {
+      "filePath": "\/Users\/viktoragungsukarno\/Documents\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerService.swift",
+      "kind": "StringLiteral",
+      "offset": 14967,
+      "length": 64,
+      "value": "\"EDTSTracker :::: Failed Synchronize Data, No Network Available\""
+    },
+    {
+      "filePath": "\/Users\/viktoragungsukarno\/Documents\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerService.swift",
+      "kind": "StringLiteral",
+      "offset": 15217,
+      "length": 28,
+      "value": "\"EDTSTrackerPendingTracking\""
+    },
+    {
+      "filePath": "\/Users\/viktoragungsukarno\/Documents\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerService.swift",
+      "kind": "StringLiteral",
+      "offset": 15361,
+      "length": 28,
+      "value": "\"EDTSTrackerPendingTracking\""
+    },
+    {
+      "filePath": "\/Users\/viktoragungsukarno\/Documents\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerService.swift",
+      "kind": "StringLiteral",
+      "offset": 15508,
+      "length": 28,
+      "value": "\"EDTSTrackerPendingTracking\""
+    },
+    {
+      "filePath": "\/Users\/viktoragungsukarno\/Documents\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerService.swift",
+      "kind": "StringLiteral",
+      "offset": 15720,
+      "length": 6,
+      "value": "\"data\""
+    },
+    {
+      "filePath": "\/Users\/viktoragungsukarno\/Documents\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerService.swift",
+      "kind": "Array",
+      "offset": 15865,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/viktoragungsukarno\/Documents\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerService.swift",
+      "kind": "StringLiteral",
+      "offset": 15972,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Users\/viktoragungsukarno\/Documents\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerService.swift",
+      "kind": "StringLiteral",
+      "offset": 16021,
+      "length": 18,
+      "value": "\"application\/json\""
+    },
+    {
+      "filePath": "\/Users\/viktoragungsukarno\/Documents\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerService.swift",
+      "kind": "StringLiteral",
+      "offset": 16061,
+      "length": 14,
+      "value": "\"Content-Type\""
+    },
+    {
+      "filePath": "\/Users\/viktoragungsukarno\/Documents\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerService.swift",
+      "kind": "StringLiteral",
+      "offset": 16144,
+      "length": 6,
+      "value": "\"apps\""
+    },
+    {
+      "filePath": "\/Users\/viktoragungsukarno\/Documents\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerService.swift",
+      "kind": "StringLiteral",
+      "offset": 16299,
+      "length": 15,
+      "value": "\"Authorization\""
+    },
+    {
+      "filePath": "\/Users\/viktoragungsukarno\/Documents\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerService.swift",
+      "kind": "StringLiteral",
+      "offset": 16412,
+      "length": 11,
+      "value": "\"x-api-key\""
+    },
+    {
+      "filePath": "\/Users\/viktoragungsukarno\/Documents\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16677,
+      "length": 3,
+      "value": "500"
+    },
+    {
+      "filePath": "\/Users\/viktoragungsukarno\/Documents\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerService.swift",
+      "kind": "StringLiteral",
+      "offset": 16713,
+      "length": 46,
+      "value": "\"EDTSTracker :::: 500 - Internal Server Error\""
+    },
+    {
+      "filePath": "\/Users\/viktoragungsukarno\/Documents\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerService.swift",
+      "kind": "StringLiteral",
+      "offset": 16836,
+      "length": 49,
+      "value": "\"EDTSTracker :::: \""
+    },
+    {
+      "filePath": "\/Users\/viktoragungsukarno\/Documents\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerService.swift",
+      "kind": "StringLiteral",
+      "offset": 16884,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/viktoragungsukarno\/Documents\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerService.swift",
+      "kind": "StringLiteral",
+      "offset": 17071,
+      "length": 30,
+      "value": "\"EDTSTracker :::: \""
+    },
+    {
+      "filePath": "\/Users\/viktoragungsukarno\/Documents\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerService.swift",
+      "kind": "StringLiteral",
+      "offset": 17100,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/viktoragungsukarno\/Documents\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerService.swift",
+      "kind": "StringLiteral",
+      "offset": 17170,
+      "length": 41,
+      "value": "\"EDTSTracker :::: Failed To Send Tracker\""
+    },
+    {
+      "filePath": "\/Users\/viktoragungsukarno\/Documents\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerService.swift",
+      "kind": "StringLiteral",
+      "offset": 17312,
+      "length": 41,
+      "value": "\"EDTSTracker :::: Failed To Send Tracker\""
+    },
+    {
+      "filePath": "\/Users\/viktoragungsukarno\/Documents\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerService.swift",
+      "kind": "StringLiteral",
+      "offset": 17448,
+      "length": 65,
+      "value": "\"EDTSTracker :::: Empty HOST URL, Please Configure URL and Token\""
+    },
+    {
+      "filePath": "\/Users\/viktoragungsukarno\/Documents\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 17892,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/viktoragungsukarno\/Documents\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 18012,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/viktoragungsukarno\/Documents\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerService.swift",
+      "kind": "Array",
+      "offset": 18077,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/viktoragungsukarno\/Documents\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 18177,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/viktoragungsukarno\/Documents\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 18530,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/viktoragungsukarno\/Documents\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerService.swift",
+      "kind": "StringLiteral",
+      "offset": 18714,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/viktoragungsukarno\/Documents\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerService.swift",
+      "kind": "StringLiteral",
+      "offset": 19150,
+      "length": 5,
+      "value": "\"en0\""
+    },
+    {
+      "filePath": "\/Users\/viktoragungsukarno\/Documents\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerService.swift",
+      "kind": "StringLiteral",
+      "offset": 19167,
+      "length": 5,
+      "value": "\"en2\""
+    },
+    {
+      "filePath": "\/Users\/viktoragungsukarno\/Documents\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerService.swift",
+      "kind": "StringLiteral",
+      "offset": 19184,
+      "length": 5,
+      "value": "\"en3\""
+    },
+    {
+      "filePath": "\/Users\/viktoragungsukarno\/Documents\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerService.swift",
+      "kind": "StringLiteral",
+      "offset": 19201,
+      "length": 5,
+      "value": "\"en4\""
+    },
+    {
+      "filePath": "\/Users\/viktoragungsukarno\/Documents\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerService.swift",
+      "kind": "StringLiteral",
+      "offset": 19218,
+      "length": 9,
+      "value": "\"pdp_ip0\""
+    },
+    {
+      "filePath": "\/Users\/viktoragungsukarno\/Documents\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerService.swift",
+      "kind": "StringLiteral",
+      "offset": 19239,
+      "length": 9,
+      "value": "\"pdp_ip1\""
+    },
+    {
+      "filePath": "\/Users\/viktoragungsukarno\/Documents\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerService.swift",
+      "kind": "StringLiteral",
+      "offset": 19260,
+      "length": 9,
+      "value": "\"pdp_ip2\""
+    },
+    {
+      "filePath": "\/Users\/viktoragungsukarno\/Documents\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerService.swift",
+      "kind": "StringLiteral",
+      "offset": 19281,
+      "length": 9,
+      "value": "\"pdp_ip3\""
+    },
+    {
+      "filePath": "\/Users\/viktoragungsukarno\/Documents\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 19351,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/viktoragungsukarno\/Documents\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 19535,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/viktoragungsukarno\/Documents\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerService.swift",
+      "kind": "StringLiteral",
+      "offset": 19737,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/viktoragungsukarno\/Documents\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerEnum.swift",
+      "kind": "StringLiteral",
+      "offset": 152,
+      "length": 11,
+      "value": "\"page_view\""
+    },
+    {
+      "filePath": "\/Users\/viktoragungsukarno\/Documents\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerEnum.swift",
+      "kind": "StringLiteral",
+      "offset": 192,
+      "length": 13,
+      "value": "\"user_search\""
+    },
+    {
+      "filePath": "\/Users\/viktoragungsukarno\/Documents\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerEnum.swift",
+      "kind": "StringLiteral",
+      "offset": 238,
+      "length": 17,
+      "value": "\"user_impression\""
+    },
+    {
+      "filePath": "\/Users\/viktoragungsukarno\/Documents\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerEnum.swift",
+      "kind": "StringLiteral",
+      "offset": 285,
+      "length": 14,
+      "value": "\"app_activity\""
+    },
+    {
+      "filePath": "\/Users\/viktoragungsukarno\/Documents\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerEnum.swift",
+      "kind": "StringLiteral",
+      "offset": 327,
+      "length": 12,
+      "value": "\"click_link\""
+    },
+    {
+      "filePath": "\/Users\/viktoragungsukarno\/Documents\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerEnum.swift",
+      "kind": "StringLiteral",
+      "offset": 366,
+      "length": 11,
+      "value": "\"user_sort\""
+    },
+    {
+      "filePath": "\/Users\/viktoragungsukarno\/Documents\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerEnum.swift",
+      "kind": "StringLiteral",
+      "offset": 406,
+      "length": 13,
+      "value": "\"user_filter\""
+    },
+    {
+      "filePath": "\/Users\/viktoragungsukarno\/Documents\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerEnum.swift",
+      "kind": "StringLiteral",
+      "offset": 453,
+      "length": 18,
+      "value": "\"event_submission\""
+    },
+    {
+      "filePath": "\/Users\/viktoragungsukarno\/Documents\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerEnum.swift",
+      "kind": "StringLiteral",
+      "offset": 500,
+      "length": 13,
+      "value": "\"page_detail\""
+    },
+    {
+      "filePath": "\/Users\/viktoragungsukarno\/Documents\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerEnum.swift",
+      "kind": "StringLiteral",
+      "offset": 545,
+      "length": 16,
+      "value": "\"displayed_item\""
+    },
+    {
+      "filePath": "\/Users\/viktoragungsukarno\/Documents\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerEnum.swift",
+      "kind": "StringLiteral",
+      "offset": 585,
+      "length": 7,
+      "value": "\"error\""
+    },
+    {
+      "filePath": "\/Users\/viktoragungsukarno\/Documents\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerEnum.swift",
+      "kind": "StringLiteral",
+      "offset": 618,
+      "length": 9,
+      "value": "\"backend\""
+    }
+  ]
+}
