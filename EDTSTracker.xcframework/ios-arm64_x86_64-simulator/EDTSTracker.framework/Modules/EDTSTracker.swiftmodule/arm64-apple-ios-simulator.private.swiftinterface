@@ -24,6 +24,7 @@ public enum EDTSTrackerHeaderType {
   public func synchronizeTrackingData()
   public func setUserId(userId: Swift.String)
   public func setUTMInfo(utm: Swift.String?)
+  public func getSessionId() -> Swift.String
   public func setLocationInfo(longitude: Swift.String, latitude: Swift.String)
   public func sendEventPageView(pageViewId: Swift.String, pageName: Swift.String, pagePath: Swift.String?, prevPage: Swift.String?, prevPath: Swift.String?, eventCount: Swift.String?)
   public func sendEventClickLink(pageViewId: Swift.String, pageName: Swift.String, linkLabel: Swift.String, linkURL: Swift.String?, details: Any?, eventCategory: Swift.String?, eventCount: Swift.String?)

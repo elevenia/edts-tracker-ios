@@ -463,6 +463,27 @@
           },
           {
             "kind": "Function",
+            "name": "getSessionId",
+            "printedName": "getSessionId()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11EDTSTracker12EDTSTrackingC12getSessionIdSSyF",
+            "mangledName": "$s11EDTSTracker12EDTSTrackingC12getSessionIdSSyF",
+            "moduleName": "EDTSTracker",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "setLocationInfo",
             "printedName": "setLocationInfo(longitude:latitude:)",
             "children": [
@@ -1571,322 +1592,329 @@
     {
       "filePath": "\/Users\/viktoragungsukarno\/Documents\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerService.swift",
       "kind": "StringLiteral",
-      "offset": 13509,
+      "offset": 12826,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/viktoragungsukarno\/Documents\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerService.swift",
+      "kind": "StringLiteral",
+      "offset": 13587,
       "length": 6,
       "value": "\"iPad\""
     },
     {
       "filePath": "\/Users\/viktoragungsukarno\/Documents\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerService.swift",
       "kind": "StringLiteral",
-      "offset": 13570,
+      "offset": 13648,
       "length": 8,
       "value": "\"iPhone\""
     },
     {
       "filePath": "\/Users\/viktoragungsukarno\/Documents\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerService.swift",
       "kind": "StringLiteral",
-      "offset": 13718,
+      "offset": 13796,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/viktoragungsukarno\/Documents\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerService.swift",
       "kind": "StringLiteral",
-      "offset": 14040,
+      "offset": 14118,
       "length": 6,
       "value": "\"apps\""
     },
     {
       "filePath": "\/Users\/viktoragungsukarno\/Documents\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerService.swift",
       "kind": "StringLiteral",
-      "offset": 14486,
+      "offset": 14564,
       "length": 28,
       "value": "\"EDTSTrackerPendingTracking\""
     },
     {
       "filePath": "\/Users\/viktoragungsukarno\/Documents\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerService.swift",
       "kind": "StringLiteral",
-      "offset": 14690,
+      "offset": 14768,
       "length": 43,
       "value": "\"EDTSTracker :::: Success Synchronize Data\""
     },
     {
       "filePath": "\/Users\/viktoragungsukarno\/Documents\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerService.swift",
       "kind": "StringLiteral",
-      "offset": 14794,
+      "offset": 14872,
       "length": 28,
       "value": "\"EDTSTrackerPendingTracking\""
     },
     {
       "filePath": "\/Users\/viktoragungsukarno\/Documents\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerService.swift",
       "kind": "StringLiteral",
-      "offset": 14867,
+      "offset": 14945,
       "length": 49,
       "value": "\"EDTSTracker :::: No Pending Tracking Data Found\""
     },
     {
       "filePath": "\/Users\/viktoragungsukarno\/Documents\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerService.swift",
       "kind": "StringLiteral",
-      "offset": 14967,
+      "offset": 15045,
       "length": 64,
       "value": "\"EDTSTracker :::: Failed Synchronize Data, No Network Available\""
     },
     {
       "filePath": "\/Users\/viktoragungsukarno\/Documents\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerService.swift",
       "kind": "StringLiteral",
-      "offset": 15217,
+      "offset": 15295,
       "length": 28,
       "value": "\"EDTSTrackerPendingTracking\""
     },
     {
       "filePath": "\/Users\/viktoragungsukarno\/Documents\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerService.swift",
       "kind": "StringLiteral",
-      "offset": 15361,
+      "offset": 15439,
       "length": 28,
       "value": "\"EDTSTrackerPendingTracking\""
     },
     {
       "filePath": "\/Users\/viktoragungsukarno\/Documents\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerService.swift",
       "kind": "StringLiteral",
-      "offset": 15508,
+      "offset": 15586,
       "length": 28,
       "value": "\"EDTSTrackerPendingTracking\""
     },
     {
       "filePath": "\/Users\/viktoragungsukarno\/Documents\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerService.swift",
       "kind": "StringLiteral",
-      "offset": 15720,
+      "offset": 15798,
       "length": 6,
       "value": "\"data\""
     },
     {
       "filePath": "\/Users\/viktoragungsukarno\/Documents\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerService.swift",
       "kind": "Array",
-      "offset": 15865,
+      "offset": 15943,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/viktoragungsukarno\/Documents\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerService.swift",
       "kind": "StringLiteral",
-      "offset": 15972,
+      "offset": 16050,
       "length": 6,
       "value": "\"POST\""
     },
     {
       "filePath": "\/Users\/viktoragungsukarno\/Documents\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerService.swift",
       "kind": "StringLiteral",
-      "offset": 16021,
+      "offset": 16099,
       "length": 18,
       "value": "\"application\/json\""
     },
     {
       "filePath": "\/Users\/viktoragungsukarno\/Documents\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerService.swift",
       "kind": "StringLiteral",
-      "offset": 16061,
+      "offset": 16139,
       "length": 14,
       "value": "\"Content-Type\""
     },
     {
       "filePath": "\/Users\/viktoragungsukarno\/Documents\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerService.swift",
       "kind": "StringLiteral",
-      "offset": 16144,
+      "offset": 16222,
       "length": 6,
       "value": "\"apps\""
     },
     {
       "filePath": "\/Users\/viktoragungsukarno\/Documents\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerService.swift",
       "kind": "StringLiteral",
-      "offset": 16299,
+      "offset": 16377,
       "length": 15,
       "value": "\"Authorization\""
     },
     {
       "filePath": "\/Users\/viktoragungsukarno\/Documents\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerService.swift",
       "kind": "StringLiteral",
-      "offset": 16412,
+      "offset": 16490,
       "length": 11,
       "value": "\"x-api-key\""
     },
     {
       "filePath": "\/Users\/viktoragungsukarno\/Documents\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerService.swift",
       "kind": "IntegerLiteral",
-      "offset": 16677,
+      "offset": 16755,
       "length": 3,
       "value": "500"
     },
     {
       "filePath": "\/Users\/viktoragungsukarno\/Documents\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerService.swift",
       "kind": "StringLiteral",
-      "offset": 16713,
+      "offset": 16791,
       "length": 46,
       "value": "\"EDTSTracker :::: 500 - Internal Server Error\""
     },
     {
       "filePath": "\/Users\/viktoragungsukarno\/Documents\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerService.swift",
       "kind": "StringLiteral",
-      "offset": 16836,
+      "offset": 16914,
       "length": 49,
       "value": "\"EDTSTracker :::: \""
     },
     {
       "filePath": "\/Users\/viktoragungsukarno\/Documents\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerService.swift",
       "kind": "StringLiteral",
-      "offset": 16884,
+      "offset": 16962,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/viktoragungsukarno\/Documents\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerService.swift",
       "kind": "StringLiteral",
-      "offset": 17071,
+      "offset": 17149,
       "length": 30,
       "value": "\"EDTSTracker :::: \""
     },
     {
       "filePath": "\/Users\/viktoragungsukarno\/Documents\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerService.swift",
       "kind": "StringLiteral",
-      "offset": 17100,
+      "offset": 17178,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/viktoragungsukarno\/Documents\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerService.swift",
       "kind": "StringLiteral",
-      "offset": 17170,
+      "offset": 17248,
       "length": 41,
       "value": "\"EDTSTracker :::: Failed To Send Tracker\""
     },
     {
       "filePath": "\/Users\/viktoragungsukarno\/Documents\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerService.swift",
       "kind": "StringLiteral",
-      "offset": 17312,
+      "offset": 17390,
       "length": 41,
       "value": "\"EDTSTracker :::: Failed To Send Tracker\""
     },
     {
       "filePath": "\/Users\/viktoragungsukarno\/Documents\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerService.swift",
       "kind": "StringLiteral",
-      "offset": 17448,
+      "offset": 17526,
       "length": 65,
       "value": "\"EDTSTracker :::: Empty HOST URL, Please Configure URL and Token\""
     },
     {
       "filePath": "\/Users\/viktoragungsukarno\/Documents\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerService.swift",
       "kind": "IntegerLiteral",
-      "offset": 17892,
+      "offset": 17970,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/viktoragungsukarno\/Documents\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerService.swift",
       "kind": "BooleanLiteral",
-      "offset": 18012,
+      "offset": 18090,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/viktoragungsukarno\/Documents\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerService.swift",
       "kind": "Array",
-      "offset": 18077,
+      "offset": 18155,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/viktoragungsukarno\/Documents\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerService.swift",
       "kind": "BooleanLiteral",
-      "offset": 18177,
+      "offset": 18255,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/viktoragungsukarno\/Documents\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerService.swift",
       "kind": "IntegerLiteral",
-      "offset": 18530,
+      "offset": 18608,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/viktoragungsukarno\/Documents\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerService.swift",
       "kind": "StringLiteral",
-      "offset": 18714,
+      "offset": 18792,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/viktoragungsukarno\/Documents\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerService.swift",
       "kind": "StringLiteral",
-      "offset": 19150,
+      "offset": 19228,
       "length": 5,
       "value": "\"en0\""
     },
     {
       "filePath": "\/Users\/viktoragungsukarno\/Documents\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerService.swift",
       "kind": "StringLiteral",
-      "offset": 19167,
+      "offset": 19245,
       "length": 5,
       "value": "\"en2\""
     },
     {
       "filePath": "\/Users\/viktoragungsukarno\/Documents\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerService.swift",
       "kind": "StringLiteral",
-      "offset": 19184,
+      "offset": 19262,
       "length": 5,
       "value": "\"en3\""
     },
     {
       "filePath": "\/Users\/viktoragungsukarno\/Documents\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerService.swift",
       "kind": "StringLiteral",
-      "offset": 19201,
+      "offset": 19279,
       "length": 5,
       "value": "\"en4\""
     },
     {
       "filePath": "\/Users\/viktoragungsukarno\/Documents\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerService.swift",
       "kind": "StringLiteral",
-      "offset": 19218,
+      "offset": 19296,
       "length": 9,
       "value": "\"pdp_ip0\""
     },
     {
       "filePath": "\/Users\/viktoragungsukarno\/Documents\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerService.swift",
       "kind": "StringLiteral",
-      "offset": 19239,
+      "offset": 19317,
       "length": 9,
       "value": "\"pdp_ip1\""
     },
     {
       "filePath": "\/Users\/viktoragungsukarno\/Documents\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerService.swift",
       "kind": "StringLiteral",
-      "offset": 19260,
+      "offset": 19338,
       "length": 9,
       "value": "\"pdp_ip2\""
     },
     {
       "filePath": "\/Users\/viktoragungsukarno\/Documents\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerService.swift",
       "kind": "StringLiteral",
-      "offset": 19281,
+      "offset": 19359,
       "length": 9,
       "value": "\"pdp_ip3\""
     },
     {
       "filePath": "\/Users\/viktoragungsukarno\/Documents\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerService.swift",
       "kind": "IntegerLiteral",
-      "offset": 19351,
+      "offset": 19429,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/viktoragungsukarno\/Documents\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerService.swift",
       "kind": "IntegerLiteral",
-      "offset": 19535,
+      "offset": 19613,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/viktoragungsukarno\/Documents\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerService.swift",
       "kind": "StringLiteral",
-      "offset": 19737,
+      "offset": 19815,
       "length": 2,
       "value": "\"\""
     },

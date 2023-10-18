@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "EDTSTracker"
-  spec.version      = "1.0.9"
+  spec.version      = "1.1.0"
   spec.summary      = "Application tracker iOS SDK."
 
   # This description is used to generate tags and improve search results.
