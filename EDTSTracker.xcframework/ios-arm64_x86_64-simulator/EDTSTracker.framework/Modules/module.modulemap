@@ -1,7 +1,7 @@
 framework module EDTSTracker {
   umbrella header "EDTSTracker.h"
-
   export *
+
   module * { export * }
 }
 

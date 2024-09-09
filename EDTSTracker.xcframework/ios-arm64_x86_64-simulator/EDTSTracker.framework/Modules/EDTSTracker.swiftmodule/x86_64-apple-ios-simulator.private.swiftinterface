@@ -1,13 +1,13 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)
-// swift-module-flags: -target x86_64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name EDTSTracker
-// swift-module-flags-ignorable: -enable-bare-slash-regex
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target x86_64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name EDTSTracker
 @_exported import EDTSTracker
 import Swift
 import SystemConfiguration
 import UIKit
 import _Concurrency
 import _StringProcessing
+import _SwiftConcurrencyShims
 public enum EDTSTrackerHeaderType {
   case authorization
   case xAPIKey
@@ -26,14 +26,14 @@ public enum EDTSTrackerHeaderType {
   public func setUTMInfo(utm: Swift.String?)
   public func getSessionId() -> Swift.String
   public func setLocationInfo(longitude: Swift.String, latitude: Swift.String)
-  public func sendEventPageView(pageViewId: Swift.String, pageName: Swift.String, pagePath: Swift.String?, prevPage: Swift.String?, prevPath: Swift.String?, eventCount: Swift.String?)
-  public func sendEventClickLink(pageViewId: Swift.String, pageName: Swift.String, linkLabel: Swift.String, linkURL: Swift.String?, details: Any?, eventCategory: Swift.String?, eventCount: Swift.String?)
-  public func sendEventSubmission(pageViewId: Swift.String, pageName: Swift.String, details: Any?, event_label: Swift.String, status: Swift.String?, failed: Swift.String?, eventCategory: Swift.String?, eventCount: Swift.String)
-  public func sendEventSearch(pageViewId: Swift.String, pageName: Swift.String, searchInput: Swift.String?, details: Any?, eventCount: Swift.String?)
-  public func sendEventFilter(pageViewId: Swift.String, pageName: Swift.String, list: Any?, eventCategory: Swift.String?, eventCount: Swift.String?)
-  public func sendEventSort(pageViewId: Swift.String, pageName: Swift.String, sort: Swift.String, eventCount: Swift.String?)
-  public func sendEventImpression(pageViewId: Swift.String, pageName: Swift.String, impressions: Any?, eventCategory: Swift.String?, eventCount: Swift.String?)
-  public func sendEventDisplayedItem(pageViewId: Swift.String, pageName: Swift.String, list: Any?, eventCount: Swift.String?)
+  public func sendEventPageView(pageViewId: Swift.String, pageName: Swift.String, pagePath: Swift.String?, prevPage: Swift.String?, prevPath: Swift.String?, eventCount: Swift.String?, serviceType: Swift.String? = nil)
+  public func sendEventClickLink(pageViewId: Swift.String, pageName: Swift.String, linkLabel: Swift.String, linkURL: Swift.String?, details: Any?, eventCategory: Swift.String?, eventCount: Swift.String?, serviceType: Swift.String? = nil)
+  public func sendEventSubmission(pageViewId: Swift.String, pageName: Swift.String, details: Any?, event_label: Swift.String, status: Swift.String?, failed: Swift.String?, eventCategory: Swift.String?, eventCount: Swift.String, serviceType: Swift.String? = nil)
+  public func sendEventSearch(pageViewId: Swift.String, pageName: Swift.String, searchInput: Swift.String?, details: Any?, eventCount: Swift.String?, serviceType: Swift.String? = nil)
+  public func sendEventFilter(pageViewId: Swift.String, pageName: Swift.String, list: Any?, eventCategory: Swift.String?, eventCount: Swift.String?, serviceType: Swift.String? = nil)
+  public func sendEventSort(pageViewId: Swift.String, pageName: Swift.String, sort: Swift.String, eventCount: Swift.String?, serviceType: Swift.String? = nil)
+  public func sendEventImpression(pageViewId: Swift.String, pageName: Swift.String, impressions: Any?, eventCategory: Swift.String?, eventCount: Swift.String?, serviceType: Swift.String? = nil)
+  public func sendEventDisplayedItem(pageViewId: Swift.String, pageName: Swift.String, list: Any?, eventCount: Swift.String?, serviceType: Swift.String? = nil)
   public func sendEventPageDetail(pageViewId: Swift.String, pageName: Swift.String, details: Any?, eventCount: Swift.String?)
   public func sendEventAppActivity(pageViewId: Swift.String, details: Any?, eventCount: Swift.String?)
   public func sendEventBackendData(pageViewId: Swift.String, pageName: Swift.String, eventDetails: Swift.String, details: Any?, eventCount: Swift.String?)
