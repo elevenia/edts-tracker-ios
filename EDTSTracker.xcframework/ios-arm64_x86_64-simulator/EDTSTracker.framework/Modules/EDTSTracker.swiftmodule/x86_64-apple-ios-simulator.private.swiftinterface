@@ -1,6 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
 // swift-module-flags: -target x86_64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name EDTSTracker
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
 @_exported import EDTSTracker
 import Swift
 import SystemConfiguration
@@ -19,6 +20,7 @@ public enum EDTSTrackerHeaderType {
 }
 @objc @_inheritsConvenienceInitializers public class EDTSTracking : ObjectiveC.NSObject {
   public static let sharedInstance: EDTSTracker.EDTSTracking
+  public var urlSession: Foundation.URLSession
   @objc override dynamic public init()
   public func configure(host: Foundation.URL, token: Swift.String, headerType: EDTSTracker.EDTSTrackerHeaderType)
   public func synchronizeTrackingData()

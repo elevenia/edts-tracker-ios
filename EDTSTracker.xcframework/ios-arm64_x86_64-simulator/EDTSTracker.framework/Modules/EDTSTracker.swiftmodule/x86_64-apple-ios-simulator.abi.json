@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "EDTSTracker",
+    "printedName": "EDTSTracker",
     "children": [
       {
         "kind": "Import",
@@ -200,6 +200,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -314,6 +328,92 @@
                   "Final"
                 ],
                 "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "urlSession",
+            "printedName": "urlSession",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "URLSession",
+                "printedName": "Foundation.URLSession",
+                "usr": "c:objc(cs)NSURLSession"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11EDTSTracker12EDTSTrackingC10urlSessionSo12NSURLSessionCvp",
+            "mangledName": "$s11EDTSTracker12EDTSTrackingC10urlSessionSo12NSURLSessionCvp",
+            "moduleName": "EDTSTracker",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URLSession",
+                    "printedName": "Foundation.URLSession",
+                    "usr": "c:objc(cs)NSURLSession"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11EDTSTracker12EDTSTrackingC10urlSessionSo12NSURLSessionCvg",
+                "mangledName": "$s11EDTSTracker12EDTSTrackingC10urlSessionSo12NSURLSessionCvg",
+                "moduleName": "EDTSTracker",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URLSession",
+                    "printedName": "Foundation.URLSession",
+                    "usr": "c:objc(cs)NSURLSession"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11EDTSTracker12EDTSTrackingC10urlSessionSo12NSURLSessionCvs",
+                "mangledName": "$s11EDTSTracker12EDTSTrackingC10urlSessionSo12NSURLSessionCvs",
+                "moduleName": "EDTSTracker",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11EDTSTracker12EDTSTrackingC10urlSessionSo12NSURLSessionCvM",
+                "mangledName": "$s11EDTSTracker12EDTSTrackingC10urlSessionSo12NSURLSessionCvM",
+                "moduleName": "EDTSTracker",
+                "implicit": true,
+                "accessorKind": "_modify"
               }
             ]
           },
@@ -1502,6 +1602,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -1556,84 +1670,84 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/hafshyyazid\/Documents\/EDTS\/EDTSTracker\/EDTSTracker\/EDTSTrackerEnum.swift",
+      "filePath": "\/Users\/malfinsyahruddin\/code\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerEnum.swift",
       "kind": "StringLiteral",
       "offset": 152,
       "length": 11,
       "value": "\"page_view\""
     },
     {
-      "filePath": "\/Users\/hafshyyazid\/Documents\/EDTS\/EDTSTracker\/EDTSTracker\/EDTSTrackerEnum.swift",
+      "filePath": "\/Users\/malfinsyahruddin\/code\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerEnum.swift",
       "kind": "StringLiteral",
       "offset": 192,
       "length": 13,
       "value": "\"user_search\""
     },
     {
-      "filePath": "\/Users\/hafshyyazid\/Documents\/EDTS\/EDTSTracker\/EDTSTracker\/EDTSTrackerEnum.swift",
+      "filePath": "\/Users\/malfinsyahruddin\/code\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerEnum.swift",
       "kind": "StringLiteral",
       "offset": 238,
       "length": 17,
       "value": "\"user_impression\""
     },
     {
-      "filePath": "\/Users\/hafshyyazid\/Documents\/EDTS\/EDTSTracker\/EDTSTracker\/EDTSTrackerEnum.swift",
+      "filePath": "\/Users\/malfinsyahruddin\/code\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerEnum.swift",
       "kind": "StringLiteral",
       "offset": 285,
       "length": 14,
       "value": "\"app_activity\""
     },
     {
-      "filePath": "\/Users\/hafshyyazid\/Documents\/EDTS\/EDTSTracker\/EDTSTracker\/EDTSTrackerEnum.swift",
+      "filePath": "\/Users\/malfinsyahruddin\/code\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerEnum.swift",
       "kind": "StringLiteral",
       "offset": 327,
       "length": 12,
       "value": "\"click_link\""
     },
     {
-      "filePath": "\/Users\/hafshyyazid\/Documents\/EDTS\/EDTSTracker\/EDTSTracker\/EDTSTrackerEnum.swift",
+      "filePath": "\/Users\/malfinsyahruddin\/code\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerEnum.swift",
       "kind": "StringLiteral",
       "offset": 366,
       "length": 11,
       "value": "\"user_sort\""
     },
     {
-      "filePath": "\/Users\/hafshyyazid\/Documents\/EDTS\/EDTSTracker\/EDTSTracker\/EDTSTrackerEnum.swift",
+      "filePath": "\/Users\/malfinsyahruddin\/code\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerEnum.swift",
       "kind": "StringLiteral",
       "offset": 406,
       "length": 13,
       "value": "\"user_filter\""
     },
     {
-      "filePath": "\/Users\/hafshyyazid\/Documents\/EDTS\/EDTSTracker\/EDTSTracker\/EDTSTrackerEnum.swift",
+      "filePath": "\/Users\/malfinsyahruddin\/code\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerEnum.swift",
       "kind": "StringLiteral",
       "offset": 453,
       "length": 18,
       "value": "\"event_submission\""
     },
     {
-      "filePath": "\/Users\/hafshyyazid\/Documents\/EDTS\/EDTSTracker\/EDTSTracker\/EDTSTrackerEnum.swift",
+      "filePath": "\/Users\/malfinsyahruddin\/code\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerEnum.swift",
       "kind": "StringLiteral",
       "offset": 500,
       "length": 13,
       "value": "\"page_detail\""
     },
     {
-      "filePath": "\/Users\/hafshyyazid\/Documents\/EDTS\/EDTSTracker\/EDTSTracker\/EDTSTrackerEnum.swift",
+      "filePath": "\/Users\/malfinsyahruddin\/code\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerEnum.swift",
       "kind": "StringLiteral",
       "offset": 545,
       "length": 16,
       "value": "\"displayed_item\""
     },
     {
-      "filePath": "\/Users\/hafshyyazid\/Documents\/EDTS\/EDTSTracker\/EDTSTracker\/EDTSTrackerEnum.swift",
+      "filePath": "\/Users\/malfinsyahruddin\/code\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerEnum.swift",
       "kind": "StringLiteral",
       "offset": 585,
       "length": 7,
       "value": "\"error\""
     },
     {
-      "filePath": "\/Users\/hafshyyazid\/Documents\/EDTS\/EDTSTracker\/EDTSTracker\/EDTSTrackerEnum.swift",
+      "filePath": "\/Users\/malfinsyahruddin\/code\/edts-trackingv2-ios\/EDTSTracker\/EDTSTrackerEnum.swift",
       "kind": "StringLiteral",
       "offset": 618,
       "length": 9,
